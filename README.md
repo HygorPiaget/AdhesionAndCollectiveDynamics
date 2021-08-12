@@ -5,9 +5,12 @@
 
 * If you use any data or code, please considerer to cite. 
 
-1) The file **Nucleus_Segmentation.ipynb** is a Python code that reads all images at the folder **/images** and finds the location of cells nuclei.
+1) The file **Nucleus_Segmentation.ipynb** is a Python code that reads all images at the folder **\images** and finds the location of cells nuclei.
 2) The file **Mol_Dynamics_Model.cpp** is a C++ code used to simulate the model descriped at the [paper] (https://www.biorxiv.org/content/10.1101/2021.03.29.437400v1.abstract).
 3) In order to run the Molecular Dynamics simulation you need first to give a set of parameters using the file **data.txt**. 
-a) 
+
+- First line: proliferation rate lambda
+- Second line: tau, intensity of adhesion
+- Third line: seed, seed used for the random number generator 
 
 
