@@ -11,6 +11,6 @@
 3. In order to run the Molecular Dynamics simulation you first need to give a set of parameters using the file **data.txt**:  
     - First line: proliferation rate <img src="https://render.githubusercontent.com/render/math?math=\lambda">;
     - Second line: intensity of adhesion <img src="https://render.githubusercontent.com/render/math?math=\tau">; 
-    - Third line: seed, seed used for the random number generator. 
+    - Third line: seed used for the random number generator. 
 
 
