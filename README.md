@@ -6,7 +6,7 @@
 ## If you use any data or code, please considerer to cite. 
 
 1. The folder **\images** contains all experimental images of GBM cells proliferation on a flat substrate. The file name contains the time points (2h, 4h, 6h, 8h, 12h and 24h) and the sample number;
-1. The file **Nucleus_Segmentation.ipynb** is a Python code that reads all images at the folder **\images** and finds the location of cells nuclei;
+1. The file **Nucleus_Segmentation.ipynb** is a Python code that reads all images at the folder **\images** and finds the location of cell nuclei;
 2. The file **Mol_Dynamics_Model.cpp** is a C++ code used to simulate the model described at the [paper](https://www.biorxiv.org/content/10.1101/2021.03.29.437400v1.abstract);
 3. In order to run the Molecular Dynamics simulation you first need to give a set of parameters using the file **data.txt**:  
     - First line: proliferation rate <img src="https://render.githubusercontent.com/render/math?math=\lambda">;
